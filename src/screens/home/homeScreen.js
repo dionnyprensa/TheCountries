@@ -2,10 +2,10 @@ import React from "react";
 import styled from "styled-components";
 import PropTypes from "prop-types";
 
-function AboutScreen({navigation}) {
+function HomeScreen({navigation}) {
   return (
     <Container>
-      <Text>AboutScreen</Text>
+      <Text>HomeScreen</Text>
     </Container>
   );
 }
@@ -15,11 +15,10 @@ const Container = styled.View`
   align-items: center;
   justify-content: center;
 `;
-
 const Text = styled.Text``;
 
-AboutScreen.propTypes = {
+HomeScreen.propTypes = {
   navigation: PropTypes.object
 };
 
-export default AboutScreen;
+export default HomeScreen;
